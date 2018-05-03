@@ -17,11 +17,9 @@ Instructions:
 - Run tor in terminal (literally just type '$ tor' in terminal when installed)
 - $ node server
 - go to localhost:3000
-- I set up an online mongoDB, I thought it would be nicer then having to have you set up an instance locally etc
 - Please hit the server with the credentials I gave you so you can see the historical data collection
 - I dropped a lot of console logs in to make it easy for anyone reviewing it
-- on the front end click the "click me to add 
-- Please call me if this doesn't make sense
+- on the front end click the "click me to add"
 
 Problems: 
 - I didn't have time to fully unit test it
