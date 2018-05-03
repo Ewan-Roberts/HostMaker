@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HostMaker dev challenge</title>
+
+    <link href="js/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/dashboard.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 main">
+            <h1 class="page-header">Property Management</h1>
+            
+            <button class="add_property_button">+ Add Property</button>
+            <button class="test_add_property">+ Add Test Property</button>
+            <button class="add_test_data">+ Click me to add all test Data</button>
+            <button class="validate_data">+ Validate Current Data</button>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Owner</th>
+                            <th>Address </th>
+                            <th>AirBnB_ID</th>
+                            <th>Bedrooms</th>
+                            <th>Bathroom</th>
+                            <th>Income Generated</th>
+                            <th>Actions</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/vendors/jquery/dist/jquery.min.js"></script>
+<script src="js/supplier/app.js"></script>
+<script src="js/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

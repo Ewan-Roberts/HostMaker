@@ -1,0 +1,21 @@
+{
+  "name": "hostmaker",
+  "version": "1.0.2",
+  "description": "Hostmaker-dev-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ER",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "mongoose": "^5.0.16",
+    "mongoose-history": "^0.6.0",
+    "random-useragent": "^0.3.1",
+    "request": "^2.85.0",
+    "sinon": "^4.5.0",
+    "socks5-http-client": "^1.0.3"
+  }
+}
