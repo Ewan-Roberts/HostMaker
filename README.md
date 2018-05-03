@@ -2,9 +2,13 @@
 
 dev challenge for host maker
 
+This is effectively a front end interface into a database for Creating Reading Updating and Deleting through websockets. Its all JavaScript and JSON and asyncy and valididates URL links with AirBnB.
+
+This is a half finished project. It will run and work but the front end is buggy visually (not functionally), the secuirty amounts to a small sign saying "bad guys stay out" and it isn't fully unit tested. 
+
 To get around airbnb's love of blocking me constantly I spoof the agent-header and I route everything through tor onion layers
 
-mongoose.connect() in server needs to connect to a mongo DB. I suggest making a free mlab database, or you can make a local. I dunno, you do you man
+mongoose.connect() in server.js needs to connect to a mongo DB. I suggest making a free mlab database, or you can make a local. I dunno, you do you man
 
 Instructions: 
 
